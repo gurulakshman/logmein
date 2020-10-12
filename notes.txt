@@ -1,3 +1,7 @@
+How to Build application.
+1. Run Maven clean (It deletes all the files)
+2. Run Maven install (Builds the application and generates war file)
+
 How to deploy on Tomcat server
 1. 	Copy logmein.war file from /target directory to tomcatdirectory\webapps 
 2. 	Restart the tomcat server.
