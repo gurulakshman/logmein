@@ -1,0 +1,10 @@
+com\logmein\exception\ApiError.class
+com\logmein\exception\GlobalExceptionHandler.class
+com\logmein\repository\ShoppingRepository.class
+com\logmein\exception\ResourceNotFoundException.class
+com\logmein\entity\Item.class
+com\logmein\ShoppingApplication.class
+com\logmein\dto\ItemDto.class
+com\logmein\exception\ResponseEntityBuilder.class
+com\logmein\service\ShoppingService.class
+com\logmein\controller\ShoppingController.class
