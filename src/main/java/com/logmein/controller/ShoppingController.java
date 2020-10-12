@@ -20,7 +20,7 @@ import com.logmein.entity.Item;
 import com.logmein.service.ShoppingService;
 /**
  * This is controller class for the shopping service
- * @author User
+ * @author Guru
  *
  */
 @RestController

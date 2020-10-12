@@ -64,7 +64,7 @@ public class ShoppingService {
 	}
 	/**
 	 * This method will delete the item from database.
-	 * @param id
+	 * @param id item id to be deleted
 	 */
 	public void deleteItem(Long id) {
 		shoppingRepository.findById(id)

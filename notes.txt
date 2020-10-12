@@ -1,8 +1,18 @@
+How to deploy on Tomcat server
+1. 	Copy logmein.war file from /target directory to tomcatdirectory\webapps 
+2. 	Restart the tomcat server.
+3.  You will see the application running on url http://localhost:8080/logmein/shopping		
+
+If you run the application directly from the Application file (Run -> ShoppingApplication.java as java application)
+The url will be  http://localhost:8080/shopping/
+
+Assumption: Application is deployed in tomcat server
+
 How to use the application.
 
 1. Insert new item to shopping list
 	Method type: POST
-	Url: http://localhost:8080/shopping
+	Url: http://localhost:8080/logmein/shopping
 	Input json:
 	   {
     	"name" : "itemOne",
@@ -11,12 +21,12 @@ How to use the application.
 		
 2. Get all items in the shopping list
 	Method type: GET
-	Url: http://localhost:8080/shopping
+	Url: http://localhost:8080/logmein/shopping
 	Returns: List of all items
 
 3. Get items by id	
 	Method type: GET
-	Url: http://localhost:8080/shopping/1
+	Url: http://localhost:8080/logmein/shopping/1
 	Returns: Item of that id
 	{
     	"id": 1,
@@ -25,7 +35,7 @@ How to use the application.
 	}
 4. Updated Item
 	Method type: PUT
-	Url: http://localhost:8080/shopping/1
+	Url: http://localhost:8080/logmein/shopping/1
 	Input json:
 	{
         "id": 1,
@@ -35,6 +45,5 @@ How to use the application.
 
 5. Delete item
 	Method type: DELETE
-	Url: http://localhost:8080/shopping/1
+	Url: http://localhost:8080/logmein/shopping/1
 
-			
